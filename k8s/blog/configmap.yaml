@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: blog-config
+  namespace: demo-blog
+data:
+  BLOG_TITLE: "My GitOps Blog"
+  BLOG_SUBTITLE: "Lear more about GitOps and ArgoCD"
+  THEME: "dark"
