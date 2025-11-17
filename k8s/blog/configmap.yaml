@@ -4,6 +4,8 @@ metadata:
   name: blog-config
   namespace: demo-blog
 data:
-  BLOG_TITLE: "My GitOps Blog"
-  BLOG_SUBTITLE: "Lear more about GitOps and ArgoCD"
+  BLOG_TITLE: "Blog of Naveen"
+  BLOG_SUBTITLE: "Explore GitOps with Argo CD"
+  AUTHOR: "Naveen"
+  VERSION: "1.0.0"
   THEME: "dark"
